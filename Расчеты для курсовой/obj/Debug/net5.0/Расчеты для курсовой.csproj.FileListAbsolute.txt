@@ -1,0 +1,40 @@
+C:\Users\akimz\source\repos\Расчеты для курсовой\Расчеты для курсовой\bin\Debug\net5.0\Расчеты для курсовой.exe
+C:\Users\akimz\source\repos\Расчеты для курсовой\Расчеты для курсовой\bin\Debug\net5.0\Расчеты для курсовой.deps.json
+C:\Users\akimz\source\repos\Расчеты для курсовой\Расчеты для курсовой\bin\Debug\net5.0\Расчеты для курсовой.runtimeconfig.json
+C:\Users\akimz\source\repos\Расчеты для курсовой\Расчеты для курсовой\bin\Debug\net5.0\Расчеты для курсовой.runtimeconfig.dev.json
+C:\Users\akimz\source\repos\Расчеты для курсовой\Расчеты для курсовой\bin\Debug\net5.0\Расчеты для курсовой.dll
+C:\Users\akimz\source\repos\Расчеты для курсовой\Расчеты для курсовой\bin\Debug\net5.0\ref\Расчеты для курсовой.dll
+C:\Users\akimz\source\repos\Расчеты для курсовой\Расчеты для курсовой\bin\Debug\net5.0\Расчеты для курсовой.pdb
+C:\Users\akimz\source\repos\Расчеты для курсовой\Расчеты для курсовой\obj\Debug\net5.0\Расчеты для курсовой.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\akimz\source\repos\Расчеты для курсовой\Расчеты для курсовой\obj\Debug\net5.0\Расчеты для курсовой.AssemblyInfoInputs.cache
+C:\Users\akimz\source\repos\Расчеты для курсовой\Расчеты для курсовой\obj\Debug\net5.0\Расчеты для курсовой.AssemblyInfo.cs
+C:\Users\akimz\source\repos\Расчеты для курсовой\Расчеты для курсовой\obj\Debug\net5.0\Расчеты для курсовой.csproj.CoreCompileInputs.cache
+C:\Users\akimz\source\repos\Расчеты для курсовой\Расчеты для курсовой\obj\Debug\net5.0\Расчеты для курсовой.dll
+C:\Users\akimz\source\repos\Расчеты для курсовой\Расчеты для курсовой\obj\Debug\net5.0\ref\Расчеты для курсовой.dll
+C:\Users\akimz\source\repos\Расчеты для курсовой\Расчеты для курсовой\obj\Debug\net5.0\Расчеты для курсовой.pdb
+C:\Users\akimz\source\repos\Расчеты для курсовой\Расчеты для курсовой\obj\Debug\net5.0\Расчеты для курсовой.genruntimeconfig.cache
+C:\Users\akimz\source\repos\Расчеты для курсовой\Расчеты для курсовой\bin\Debug\net5.0\EPPlus.dll
+C:\Users\akimz\source\repos\Расчеты для курсовой\Расчеты для курсовой\bin\Debug\net5.0\Microsoft.Extensions.Configuration.dll
+C:\Users\akimz\source\repos\Расчеты для курсовой\Расчеты для курсовой\bin\Debug\net5.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\akimz\source\repos\Расчеты для курсовой\Расчеты для курсовой\bin\Debug\net5.0\Microsoft.Extensions.Configuration.FileExtensions.dll
+C:\Users\akimz\source\repos\Расчеты для курсовой\Расчеты для курсовой\bin\Debug\net5.0\Microsoft.Extensions.Configuration.Json.dll
+C:\Users\akimz\source\repos\Расчеты для курсовой\Расчеты для курсовой\bin\Debug\net5.0\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\Users\akimz\source\repos\Расчеты для курсовой\Расчеты для курсовой\bin\Debug\net5.0\Microsoft.Extensions.FileProviders.Physical.dll
+C:\Users\akimz\source\repos\Расчеты для курсовой\Расчеты для курсовой\bin\Debug\net5.0\Microsoft.Extensions.FileSystemGlobbing.dll
+C:\Users\akimz\source\repos\Расчеты для курсовой\Расчеты для курсовой\bin\Debug\net5.0\Microsoft.Extensions.Primitives.dll
+C:\Users\akimz\source\repos\Расчеты для курсовой\Расчеты для курсовой\bin\Debug\net5.0\Microsoft.IO.RecyclableMemoryStream.dll
+C:\Users\akimz\source\repos\Расчеты для курсовой\Расчеты для курсовой\bin\Debug\net5.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\akimz\source\repos\Расчеты для курсовой\Расчеты для курсовой\bin\Debug\net5.0\System.Drawing.Common.dll
+C:\Users\akimz\source\repos\Расчеты для курсовой\Расчеты для курсовой\bin\Debug\net5.0\System.Security.Cryptography.Pkcs.dll
+C:\Users\akimz\source\repos\Расчеты для курсовой\Расчеты для курсовой\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\akimz\source\repos\Расчеты для курсовой\Расчеты для курсовой\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\akimz\source\repos\Расчеты для курсовой\Расчеты для курсовой\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\akimz\source\repos\Расчеты для курсовой\Расчеты для курсовой\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.0\System.Security.Cryptography.Pkcs.dll
+C:\Users\akimz\source\repos\Расчеты для курсовой\Расчеты для курсовой\obj\Debug\net5.0\Расчеты для курсовой.csproj.CopyComplete
+C:\Users\akimz\source\repos\Расчеты для курсовой\Расчеты для курсовой\obj\Debug\net5.0\Расчеты для курсовой.csproj.AssemblyReference.cache
+C:\Users\akimz\source\repos\Расчеты для курсовой\Расчеты для курсовой\bin\Debug\net5.0\Дифузионное сглаживание.deps.json
+C:\Users\akimz\source\repos\Расчеты для курсовой\Расчеты для курсовой\bin\Debug\net5.0\Дифузионное сглаживание.runtimeconfig.json
+C:\Users\akimz\source\repos\Расчеты для курсовой\Расчеты для курсовой\bin\Debug\net5.0\Дифузионное сглаживание.runtimeconfig.dev.json
+C:\Users\akimz\source\repos\Расчеты для курсовой\Расчеты для курсовой\bin\Debug\net5.0\Дифузионное сглаживание.exe
+C:\Users\akimz\source\repos\Расчеты для курсовой\Расчеты для курсовой\bin\Debug\net5.0\Дифузионное сглаживание.dll
+C:\Users\akimz\source\repos\Расчеты для курсовой\Расчеты для курсовой\bin\Debug\net5.0\Дифузионное сглаживание.pdb
