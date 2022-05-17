@@ -1,11 +1,12 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using OfficeOpenXml;
 
 namespace Расчеты_для_курсовой
 {
-    //Наборы данных по годам
+    // Наборы данных по годам
     class Data
     {
         //Номер года
@@ -24,22 +25,16 @@ namespace Расчеты_для_курсовой
         public List<(List<double> Q, List<double> H)> Input;
         public List<(List<double> Q, List<double> H)> Output;
 
-        public void MakePreprocessing(params PreprocessingType[] types)
+        public void MakePreprocessing(PreprocessingType types)
         {
-            foreach (var type in types)
+            if ((PreprocessingType.StandardizationH & types) == PreprocessingType.StandardizationH)
+                StandardizeH();
 
-                switch (type)
-                {
-                    case PreprocessingType.StandardizationH:
-                        StandardizeH();
-                        break;
-                    case PreprocessingType.FullFunctional:
-                        MakeFunctionalPreprocess();
-                        break;
-                    case PreprocessingType.RelativeIncreaseQ:
-                        CalcRelativeQ();
-                        break;
-                }
+            if ((PreprocessingType.RelativeIncreaseQ & types) == PreprocessingType.RelativeIncreaseQ)
+                CalcRelativeQ();
+
+            if ((PreprocessingType.FullFunctional & types) == PreprocessingType.FullFunctional)
+                MakeFunctionalPreprocess();
         }
 
         private void MakeFunctionalPreprocess()
@@ -83,14 +78,14 @@ namespace Расчеты_для_курсовой
 
         private void StandardizeH()
         {
-            var minH = Output[^1].H.Min();
+            // Минимальное H находится либо в H1 (начало половодья), либо в H пр (конец половодья)
             for (int i = 0; i < InputDaysCount; i++)
                 for (int j = 0; j < Input[i].H.Count; j++)
-                    Input[i].H[j] -= minH;
+                    Input[i].H[j] -= Preprocessing.MIN_H;
 
             for (int i = 0; i < OutputDaysCount; i++)
                 for (int j = 0; j < Output[i].H.Count; j++)
-                    Output[i].H[j] -= minH;
+                    Output[i].H[j] -= Preprocessing.MIN_H;
         }
 
         public void WriteFile(string dataSetsFilePath)
@@ -102,7 +97,7 @@ namespace Расчеты_для_курсовой
                 outputFile = new FileInfo(dataSetsFilePath);
             }
             var outputPackage = new ExcelPackage(outputFile);
-            var outputSheet = outputPackage.Workbook.Worksheets.Add("Тестирующие наборы");
+            var outputSheet = outputPackage.Workbook.Worksheets.Add("Датасет");
 
             //Q и H
             for (int i = 0; i < InputDaysCount; i++)

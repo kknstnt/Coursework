@@ -6,9 +6,10 @@
         {
             Preprocessing.MakeDataSetsFile(
                 inputDaysCount: 3,
-                outputDaysCount: 5,
-                useSmoothing: false,
-                PreprocessingType.StandardizationH);
+                outputDaysCount: 1,
+                useSmoothing: true,
+                PreprocessingType.StandardizationH,
+                ClusterName.Spring1);
         }
     }
 }
